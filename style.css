@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(201, 245, 245);
+}
+#id1{
+    height: 250px;
+    width: 94%;
+    /* background-color: cyan; */
+    background-image: linear-gradient(90deg,rgb(118, 243, 243), rgb(240, 130, 185));
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    word-spacing: 30px;
+    margin: auto;
+    /* justify-content: space-around; */
+}
+
+#btn{
+    height: 40px;
+    width: 150px;
+    border-left: 30%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* border-color: black; */
+    box-shadow: 0.2px 1px 4px 3px  white;
+    background-color: lightgray;
+    border-width: 0;
+    /* border-radius: 50%; */
+    /* border-end-end-radius: 40%; */
+}
+/* #btn:hover{
+    background-color: lightgray;
+} */
+#inputt{
+    height: 32px;
+    width: 380px;
+    border-width: 0;
+    margin-right: 350px;
+}
+
+#id2{
+    /* position: relative; */
+    height: 200px;
+    width: 80%;
+    background-color: rgb(95, 87, 87);
+    margin: auto;
+    margin-top: 60px;
+}
+
+#id3{
+    position: relative;
+    height: 80px; 
+    width: 70px;
+    /* background-color: white;  */
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 60px;
+    overflow: hidden;
+    /* border-color: 10px solid black; */
+}
+#id2 p{
+    text-align: center;
+    line-height: 80px;
+    height: 100%;
+    margin: 0px;
+    width: 100%;
+    background-color: white;
+    border-top: 2px solid black;
+}
+p.next{
+    position: absolute;
+    top: 100px;
+}
+
+p.animate{
+    transition: all 0.5s;
+    top: 0px;
+}
